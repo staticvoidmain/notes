@@ -1,0 +1,44 @@
+Last week some colleagues and I stepped outside our normal routines and did something awesome. What follows is a semi-detailed and possibly embellished account of those events.
+
+It all began just two weeks ago. Myself and Mr. Ravi Kant were staying late to finish something of vital importance to the company, (I honestly can't remember, but it probably wasn't important) when Victor, one of our summer interns asked me to explain "that whole NoSQL thing". So I rattled off a quick answer about consistency and schemas, very informal and very light on the details. Ravi however was convinced that I had just cracked something huge and asks if we had recorded it. Well, no, of course not, it was just a little discussion between colleagues, why would we? Still he persisted. We talk about teaching for a little while longer and Victor suddenly announced "We should have a conference!". I was taken aback by the raw enthusiasm, and while I thought that surely given our proven track record of shooting down good ideas it was unlikely, I never the less became convinced that it was at least possible. Thus began the two week journey to bring a fully-realized dev conference and hack-a-thon to an unsuspecting company.
+
+The result:
+Four hours of for-us-by-us talks about Concurrency, NoSQL, Motivation / Soft Skills, Javascript and Unit Testing, followed by an 8-hour hackathon.
+The talks were attendended by almost all of our developers (most of whom do not get to go to tech conferences regularly or at all) who were immensely grateful for the opportunity to learn something new.
+
+Lessons Learned:
+Just ask! 
+	- Departments have a budget for training and team building. You can easily justify the cost. (see below)
+
+Get numbers
+	- Take a simple survey of the department to gauge interest. Spam them if necessary.
+	- If you can easily point to a graph and say that you have a strong response from most of the department, the idea will be considered.
+
+If they say no, keep going.
+	- If you're worried that you might get shut down, just keep talking up the idea to anyone who will listen. 
+	- Marketing yourselves can go a long way toward a successful FUBU conference. 
+	- It's simple collective bargaining, if enough developers are enthusiastic about something, it's more likely to get done.
+
+Sort out infrastructure requirements early
+	- Our hackathon was very nearly cut down in its prime due to lack of wifi in the auditorium.
+
+Record it!
+	- Get some presentation streaming tools like Open Broadcaster http://obsproject.com/ to give your presentations some much-needed polish. handles inputs from multiple channels (like powerpoint presentations and web-cams) and allows for branded screen overlays. 
+
+Coffee helps
+	- Seriously, lots and lots of coffee.
+
+Volunteers welcome
+	- You will definitely need all the help you can get. 
+	- Reach out to other departments to campaign for you. 
+	- Get your marketing folks to come up with logos and posters. 
+	- Create your own buzz if possible.
+
+We had a blast doing it, and the results were very positive. Not in the sense that any work got done, but the attendees left with a sense of commraderie and the presenters walked away with a sense that they had helped elevate the skills of some of their peers. Speaking from personal experience this has really been a shot in the arm. I had been very dissatisfied at work, feeling as though the culture-rot was going to be impossible to overcome, and this experience has rekindled a lot of the passion I felt I had lost.
+
+If you have talented people who need to be challenged, you would be crazy not to try something like this.
+
+If your managers still aren't convinced:
+	- We put this on for less than $2,000 (mostly food). That's less than the cost of *one* ticket to Build. 
+	- The content was developed in-house and presented by peers which made it (hopefully) more relevant to the attendees.
+	- You can record the talks and re-use the content for future learning.

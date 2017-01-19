@@ -1,0 +1,67 @@
+This is the gist of an actual phone conversation I had with my mother <b>one week</b> after she purchased a new computer.
+
+[ring ring]
+Me: Hi mom.
+Mom: Ross... I'm really scared. I think we have a Virus. McAfee says it's scanning and I can't close it.
+Me: Did you install McAfee?
+Mom: I don't know! I don't think so.
+
+
+Pre-empting the dreaded "Sweetie, the computer is acting funny, can you help?" is easy, and the time you save will be your own. In life and in computer care, early prevention is the best medicine.
+
+Mom is not the administrator.
+- create an account for her.
+- set the privileges intelligently.
+
+Mom doesn't care what browser she uses.
+- Install Chrome. Remove IE from the taskbar and the start menu.
+
+Hell, just uninstall it. Microsoft is sneaky and classifies it as a Windows Feature, but you CAN remove it.
+
+Mom gets confused with all these ads and popups.
+- adblock, flashblock, scriptblock
+
+Mom doesn't have a backup strategy.
+
+Mom can't explain what's going on right now.
+- Good: Screenshots
+	- Show her where the button is.
+	- Email you a screenshot.
+
+- Better: problem step recorder
+	- It's on her machine.
+	- Teach her how to use it.
+
+- Chromoting! Forget recording the steps, just tap into her machine.
+
+Mom just wants you to come over and fix it.
+	- If all else fails
+
+Finallly: Mom doesn't need all that stuff anyway.
+- Windows is an OS for computer enthusiasts.
+- OSX is an OS for 
+- Just get her a chromebook.
+
+Basic protections for mom: (In no particular order)
+	* Stop running Windows XP, seriously, just stop.
+	* Run an antivirus actively, show her what it looks like so she doesn't freak out.
+		- (AVG is good and available for free or premium with some extra features).
+	* Beware tools that promise to "Speed up" your pc, they are almost always a scam in the best-case and can be bundled with viruses in the worst-case.
+	* In the same vein, beware installing anti-viral sofware which is not from a reputable vendor:
+
+		If it is not from Microsoft, Norton, AVG, McAfee, Kaspersky, or Trend Micro don't trust it.
+		
+		There is a whole category of scamware dedicated to tricking mom into paying for things she doesn't need.
+		http://en.wikipedia.org/wiki/Rogue_security_software
+
+	* Do not open attachments or follow links from people you do not know. (Trust me, no one is sending you free money, it's a scam)
+	* If you find yourself on a scary site, ALT+F4 or kill the process from the task manager, don't get tricked into clicking anything on the site.
+	* It is almost never effective to install an Anti-Virus AFTER an infection. Re-format, re-install, get on with your life.
+	* Always ensure that you have Automatic Updates enabled on Windows to ensure security patches are up-to-date.
+	* If you are a non-expert user (and even then it's risky) never run windows as an administrator account. Always use a second account with lower privileges. 
+		Details for setting up a day-to-day user can be found here: 
+		[link]
+			http://technet.microsoft.com/en-us/library/ee623984(v=ws.10).aspx
+		[/link]
+	* Run a modern web browser which automatically-updates. (Chrome / Firefox)
+	* Always have a backup strategy for your important documents and photos. (Why not put them in the cloud?)

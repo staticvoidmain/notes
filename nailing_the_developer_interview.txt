@@ -1,0 +1,32 @@
+Nailing the developer interview.
+
+[ understand your audience ]
+Disclaimer: This is taken from my personal experience interviewing candidates. I am by no means an interviewing expert, well-studied as a human lie detector, nor have I ever dedicated an ounce of time or energy into reading a book about the art of the interview. Luckily for you, neither has your interviewer. Most likely, the person sitting across from you (the candidate) is a normal human being of average intelligence who merely wants to see if you're the type of person they could see themselves working with for an extended period of time without wanting to pull their hair out. Note: If this is a consulting firm, then they just want to ensure that they can use you to extract the maximum amount of dollars from their clients without them growing suspicious. ** Your actual personality probably doesn't matter at all.
+
+[ don't panic ]
+That's easy, right? Don't sweat profusely and make the interviewer feel weird you big dummy. Just plug your glands and remember to smile, but not too much... oh god, what do you do with your hands? Are you talking too fast? Too slow? This is how humans stand right? I think so.
+
+Seriously, just relax. It's already a really tense situation for everyone. Just be cool, okay? The interviewer will sense your fear, and will respond to it by asking you easy questions. This might seem good, but really it's like letting a kid win at basketball to make him feel better about being adopted. You want to prove that you are a smart confident individual, and looking nervous until you get a few pity questions isn't going to do anything to help your case. 
+
+[ know the bare minimum ]
+If I ask you about design patterns, and all you can talk about is Singleton, the interview is fucking over. You should be able to explain language and technology agnostic concepts such as:
+	* Basic Control Flow
+	* Object Oriented Design Patterns
+	* Data-Structures
+	* Static vs. Dynamic Typing
+
+There is a lot to know in the world of computer science, and often there is so much that we tend to forget the core topics. Know the basics inside and out so that you and the interviewer are speaking the same language. This is not to be confused with buzzwording. These are not merely words you say and the interviewer quietly nods approvingly. You'll be expected to know enough about any of these to talk about them in detail.
+
+[ don't bullshit me ]
+There is nothing more repugnant than an interviewee who tries to bluff. It oozes out of them like a lanced boil "Oh yeah, databases. It's been a while, but I've used them. I just don't remember the specifics. I would just google it. <sheepish grin>" 
+
+What was your plan here? Did you think I didn't know enough about the topic *I just asked about* to call you on your obvious bullshit? Just own up about your lack of knowledge. The risk of outing yourself as an obvious charlatan *far* outweighs the minor inconvenience of admitting "I don't know". Hell, there are lots of things I don't know, and when people ask me about them, I am honest. Not knowing something doesn't make you seem incompetent, but being a phony makes you seem like a dickhead who is wasting my time. In my head, the interview is over. I might explain how wrong you are, but there is no real way of clawing your way back from this position.
+
+[ be smart, or have a plan to get smarter (or both). ] 
+If you can't impress me with your technical prowess *today*, at least show me some passion and have a plan to improve your skills *tomorrow*. If you are a "senior" developer and you have the "Good" in this industry is a moving target. If you are not improving, you are in fact *regresssing* relative to the rest of the industry.
+
+[ be memorable ]
+I see a lot of people, and most don't really hold my attention.
+
+[ accept defeat gracefully ]
+Sometimes, despite your best efforts, things will not go well. There are lots of reasons for this, but generally, it will mean that you are not the candidate the interviewer was looking for, and you know it. Resist the urge to ask "how did I do?". Instead, ask the interviewer if there were specific areas where you are weak. If he or she has lots to tell you, just accept your fate, and try to turn the experience into something positive. Smile, take notes, and learn the things they mention. Your next interview will be better.

@@ -1,0 +1,24 @@
+I've recently started poking around with Node.js (late to the party as usual), and while I'm having a great deal of fun, there are some things which I'm finding very difficult which I'd imagine could also be a problem for my fellow .Net compatriots.
+
+Firstly, I don't come from an open-source background. I've never contributed to a single OSS project and while I support the ideal of free software and think Richard Stahllman has a majestic beard I just don't "get it" a lot of the time. A lot of my reticense with respect to contributing has to do with style. Call me crazy, but I can't comprehend software written in an unfamiliar style. I'll probably do a whole article about my style OCD at some point, but if I find a project with a style I can apreciate I may contribute some code.
+
+Secondly, the tool chain is wholly unfamilar. Picking dependencies for my projects often involves a lot of googling around using the "X vs" trick just to find other libraries or tools that do a similar things. This of course only works if you even know about X in the first place. Should I use Mocha or Vows or Jasmine or Nodeunit? I have no idea! Part of the appeal of .Net (warning: heavy sarcasm ahead) is that you get a nice consolidation of power around some libraries (the Microsoft ones), and the rest with few exceptions die by the wayside. What about my choice to not have a choice?
+
+Things I like:
+	The node debugger
+		There are a lot of nice things to say here, and I've really only opened it once. It may not be as feature-rich as the windows commande line debuggers, but it seems to be good enough. The repl allows fairly deep object inspection, and the standard breakpoint, next, out sort of behavior is supported. Be sure to set your break points early because there doesn't seem to be a "break into" feature like CDB.
+	
+	Package management
+		npm is the Nuget/Chocolatey/apt-get of the node universe. Use it. Love it.
+
+	Price
+		It's free. What's not to like?
+
+	BYO Editor
+		It's just text, no IDE required. Plays in to the previous point. I will stil pay for sublime-text though. Hell I'm writing this post in it right now...
+
+Minor gripes:
+	Impedence Mismatch
+		Because of the bredth and depth of the node community it's likely that some of the libraries and tools will violate the principal of least surprise. Is it reasonable that all your tests must match this regex pattern /^.*spec.js$/ or else simply not be loaded? SURE! According to the authors of jasmine-node this is a perfectly reasonable thing to assume. Don't like it? Just pass the --matchall argument to get what should be the default behavior. That time you wasted figuring that out? At least you didn't spend it working for THE MAN, amirite!?
+
+All-in-all I've really enjoyed the experience and look forward to future node developments. I'm not ready to completely ditch the Microsoft stack just yet, but Node makes a compelling case.

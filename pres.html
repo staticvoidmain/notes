@@ -30,8 +30,9 @@ I won't be quite as mean as Donny; I won't openly berate you, but I think that g
 </section>
 <section id="perspective" class="slide level1">
 <h1>Perspective</h1>
-<p>To put that in perspective, let's look at it visually.</p>
-<p><a href="./images/editor_money.gif">Wasted Dollars</a></p>
+<figure>
+<img src="./images/editor_money.gif" alt="Wasted Dollars" /><figcaption>Wasted Dollars</figcaption>
+</figure>
 <aside class="notes">
 <p>Now, to be fair, it's probably not really coming out of your pocket, so you don't really <em>have</em> to care as much, but at least learn to leverage the investment to improve your quality of life.</p>
 <p>It makes sense to invest in the best tools possible, but if you don't really understand how to exploit that value, you may as well spend 0.5% of the asking price on a personal copy of Sublime Text 3 or VSCode</p>
@@ -44,8 +45,8 @@ I won't be quite as mean as Donny; I won't openly berate you, but I think that g
 </section>
 <section id="your-tools-matter" class="slide level1">
 <h1>Your tools matter</h1>
-<p>I shouldn't have to tell you this, but you spend a lot of time typing text into a computer. You have</p>
 <ul>
+<li>You spend a lot of time typing text into a computer.</li>
 <li>Your text editor should be an extension of you.</li>
 <li>brain -&gt; keyboard -&gt; screen</li>
 <li>If you spend most of your time wrangling your tooling to get it to work right, either your tools suck, or you suck.</li>
@@ -64,20 +65,20 @@ I won't be quite as mean as Donny; I won't openly berate you, but I think that g
 </section>
 <section id="bad-defaults" class="slide level1">
 <h1>Bad defaults</h1>
-<p>Sane defaults are a big deal. Visual Studio is, getting better, but it's still not completely sane.</p>
+<p>Historically:</p>
 <ul>
 <li>Ugly</li>
 <li>Basic</li>
 <li>Bloated</li>
 </ul>
+<aside class="notes">
 <p>Now it's just basic and bloated.</p>
-<aside>
 The stock-standard Visual Studio instance is not really a thing of beauty or productivity. Sure, you can file-&gt;New Project and get going right away, but the color scheme is an affront to the eye, and it doesn't really do much besides run msbuild for you.
 </aside>
 </section>
 <section id="yagni" class="slide level1">
 <h1>YAGNI</h1>
-<p>Don't need a fully featured debugger, profiler, style checker, integrated source control provider, visual designer, or any one of a hundred other things that visual studio is taxing you for?</p>
+<p>IF you don't need a fully featured debugger, profiler, style checker, integrated source control provider, visual designer, or any one of a hundred other things that visual studio is taxing you for?</p>
 <p>Don't use it.</p>
 </section>
 <section id="taco-bell-toolchain" class="slide level1">
@@ -94,9 +95,9 @@ You would honestly be better off with a nice console, git, the free MSBuild tool
 </section>
 <section id="taco-bell-workflow" class="slide level1">
 <h1>Taco-Bell Workflow</h1>
-<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash">  <span class="kw">code</span> .
-  <span class="kw">build-and-run</span> my.solution.sln
-  <span class="kw">git</span> commit -a -m <span class="st">&quot;Look at me mom!&quot;</span></code></pre></div>
+<pre><code>  code .
+  build-and-run my.solution.sln
+  git commit -a -m &quot;Look at me mom!&quot;</code></pre>
 <p>There. I saved you a boatload of time, energy, and money.</p>
 <aside class="notes">
 I cheated a bit. That's not a real command, but it could be!
@@ -113,10 +114,13 @@ I cheated a bit. That's not a real command, but it could be!
 We're gonna follow the same logic when customizing our environment as you might when optimizing code, which is focus on the &quot;Hot Path&quot;. You should be impatient and demanding of your editor.
 </aside>
 </section>
-<section id="look-at-all-these-settings..." class="slide level1">
-<h1>Look at all these settings...</h1>
-<p><a href="./images/settings_window.png">Pretty Intimidating</a></p>
-<p>Well what if I told you there were some maaagical settings that would speed up your build, help visual studio launch quicker, and generally help you capture some of that 6-grand your company blew on it. Ross, you're crazy. What sane person wouldn't want that? If those settings existed they would be on by defau...hhhh crap.</p>
+<section id="morpheus" class="slide level1">
+<h1>Morpheus</h1>
+<p>What if I told you there was another way...</p>
+<aside class="notes">
+<p>What if I told you there were some maaagical settings that would speed up your build, help visual studio launch quicker, and generally help you capture some of that 6-grand your company blew on it.</p>
+Ross, you're crazy. What sane person wouldn't want that? If those settings existed they would be on by defau...hhhh crap.
+</aside>
 </section>
 <section id="environment---general" class="slide level1">
 <h1>Environment -&gt; General</h1>
@@ -137,22 +141,31 @@ We're gonna follow the same logic when customizing our environment as you might 
 </section>
 <section id="intellitrace" class="slide level1">
 <h1>Intellitrace</h1>
-<p>Have you ever actually used it?</p>
-<p>I didn't think so. Turn it off until you need it.</p>
+<ul>
+<li>Have you ever actually used it?</li>
+<li>I didn't think so.</li>
+<li>Turn it off until you need it.</li>
+</ul>
 </section>
 <section id="xaml-designer" class="slide level1">
 <h1>XAML Designer</h1>
 <ul>
-<li>Swap the default view to code-only. It's faster, and what you probably want to see anyway.</li>
+<li>Swap the default view to code-only.</li>
 <li>Also, WYSIWYG editors for markup languages are for cowards who can't code.</li>
 </ul>
 </section>
 <section id="misc" class="slide level1">
 <h1>Misc</h1>
+<ul>
+<li>Right-Click Win Forms file</li>
+<li>Open With... CSharp Code Editor.</li>
+<li>Set the default editor</li>
+</ul>
+<aside class="notes">
 <p>If you're still laboring in WinForms land, firstly, my condolences.</p>
-<p>Right-click a Win Forms file, Open With... set the default editor to CSharp Code Editor.</p>
 <p>Sure, some people know that it's F7 to view code, but honestly, WHY would that be the hot path?</p>
 <p>How often do you step on this landmine only to be interrupted? My guess would be several times per day.</p>
+</aside>
 </section>
 <section id="you-feel-enlightened" class="slide level1">
 <h1>You feel enlightened</h1>
@@ -167,16 +180,31 @@ We're gonna follow the same logic when customizing our environment as you might 
 </section>
 <section id="the-mouse-is-for-n00bs" class="slide level1">
 <h1>The mouse is for n00bs</h1>
+<ul>
+<li>Don't be a clicker</li>
+</ul>
+<aside class="notes">
 <p>Anyone who has ever played World of Warcraft, or really any PC game knows that the worst thing you can be is a 'clicker'.</p>
 <p>I suppose there was also the keyboard-turner, but I think perhaps the two go hand-in-hand.</p>
-<p>Essentially, being inefficient with your inputs is bad.</p>
+Essentially, being inefficient with your inputs is bad.
+</aside>
 </section>
 <section id="motha-fing-code-snippets" class="slide level1">
 <h1>Motha F***ing Code Snippets</h1>
-<pre class="csharp"><code>foreach</code></pre>
-<pre class="csharp"><code>foreach (var foo in bar) { 
-  // body
+<pre class="csharp"><code>foreach[Tab][Tab]</code></pre>
+<p>BOOM</p>
+<pre class="csharp"><code>foreach (var item in collection) { 
+
 }</code></pre>
+</section>
+<section id="you-can-write-your-own" class="slide level1">
+<h1>You can write your own</h1>
+<ul>
+<li>bbo</li>
+<li>dirtyprop</li>
+<li>courier</li>
+</ul>
+<p>Go nuts. Share with your friends.</p>
 </section>
 <section id="play-the-right-chord" class="slide level1">
 <h1>Play the right chord</h1>
@@ -185,17 +213,15 @@ We're gonna follow the same logic when customizing our environment as you might 
 </section>
 <section id="rosss-greatest-hits" class="slide level1">
 <h1>Ross's Greatest Hits:</h1>
-<ul>
-<li>Ctrl+K, Ctrl+D: Format Document</li>
-<li>Ctrl+Shift+B: Build project, but don't run.</li>
-<li>Ctrl+K, Ctrl+R: Find all references</li>
-<li>Ctrl+R, Ctrl+M: extract method</li>
-<li>Ctrl+R, R: Rename without leaving the home row.</li>
-<li>Ctrl+R, A: Run ALL tests</li>
-</ul>
+<pre><code> Ctrl+K, Ctrl+D  -&gt; Format Document
+ Ctrl+Shift+B    -&gt; Build project, but don&#39;t run.
+ Ctrl+K, Ctrl+R  -&gt; Find all references
+ Ctrl+R, Ctrl+M  -&gt; extract method
+ Ctrl+R, R       -&gt; Rename without leaving the home row.
+ Ctrl+R, A       -&gt; Run ALL tests</code></pre>
 </section>
-<section id="with-each-note-you-feel-your-productivity-increasing." class="slide level1">
-<h1>With each note, you feel your productivity increasing.</h1>
+<section id="you-feel-your-productivity-increasing" class="slide level1">
+<h1>You feel your productivity increasing</h1>
 <p>It feels good, the taste of power. Let's go on.</p>
 </section>
 <section id="finding-things" class="slide level1">
@@ -211,7 +237,9 @@ We're gonna follow the same logic when customizing our environment as you might 
 <ul>
 <li>Ctrl+comma: find anything, with type-ahead auto-complete goodness.</li>
 </ul>
-<p><a href="./images/nickburns.jpg">YOU'RE WELCOME</a></p>
+<figure>
+<img src="./images/nickburns.jpg" alt="YOU&#39;RE WELCOME" /><figcaption>YOU'RE WELCOME</figcaption>
+</figure>
 </section>
 <section id="bro-do-you-even-regex" class="slide level1">
 <h1>Bro, do you even Regex?</h1>

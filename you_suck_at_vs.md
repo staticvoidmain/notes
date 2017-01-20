@@ -29,9 +29,8 @@ I think it's safe to say you can tap into a little bit of your potential. Don't 
 You're probably getting about $20 bucks worth. 
 
 # Perspective
-To put that in perspective, let's look at it visually.
 
-[Wasted Dollars](./images/editor_money.gif)
+![Wasted Dollars](./images/editor_money.gif)
 
 <aside class="notes">
 
@@ -49,8 +48,7 @@ I can't really make you a promise that you're going to unlock the FULL potential
 
 # Your tools matter
 
-I shouldn't have to tell you this, but you spend a lot of time typing text into a computer. You have 
-
+* You spend a lot of time typing text into a computer.
 * Your text editor should be an extension of you. 
 * brain -> keyboard -> screen 
 * If you spend most of your time wrangling your tooling to get it to work right, either your tools suck, or you suck.
@@ -66,21 +64,21 @@ Next up, fixing the horrible defaults.
 
 # Bad defaults
 
-Sane defaults are a big deal. Visual Studio is, getting better, but it's still not completely sane.
+Historically:
 
 * Ugly
 * Basic
 * Bloated
 
-Now it's just basic and bloated.
+<aside class="notes">
+  Now it's just basic and bloated.
 
-<aside>
   The stock-standard Visual Studio instance is not really a thing of beauty or productivity. Sure, you can file->New Project and get going right away, but the color scheme is an affront to the eye, and it doesn't really do much besides run msbuild for you.
 </aside>
 
 # YAGNI
 
-Don't need a fully featured debugger, profiler, style checker, integrated source control provider, visual designer, or any one of a hundred other things that visual studio is taxing you for?
+IF you don't need a fully featured debugger, profiler, style checker, integrated source control provider, visual designer, or any one of a hundred other things that visual studio is taxing you for?
 
 Don't use it.
 
@@ -97,7 +95,7 @@ Don't use it.
 
 # Taco-Bell Workflow
 
-```bash
+```
   code .
   build-and-run my.solution.sln
   git commit -a -m "Look at me mom!"
@@ -119,9 +117,9 @@ There. I saved you a boatload of time, energy, and money.
   We're gonna follow the same logic when customizing our environment as you might when optimizing code, which is focus on the "Hot Path". You should be impatient and demanding of your editor.
 </aside>
 
-# Look at all these settings...
+# Morpheus
 
-What if I told you there was nother way...
+What if I told you there was another way...
 
 <aside class="notes">
 What if I told you there were some maaagical settings that would speed up your build, help visual studio launch quicker, and generally help you capture some of that 6-grand your company blew on it. 
@@ -216,18 +214,20 @@ Go nuts. Share with your friends.
 
 Make an effort to learn some of these, you will notice a big difference. 
 
-http://visualstudioshortcuts.com/2015/
+## visualstudioshortcuts.com
 
 # Ross's Greatest Hits:
 
-- Ctrl+K, Ctrl+D: Format Document
-- Ctrl+Shift+B: Build project, but don't run.
-- Ctrl+K, Ctrl+R: Find all references
-- Ctrl+R, Ctrl+M: extract method
-- Ctrl+R, R: Rename without leaving the home row.
-- Ctrl+R, A: Run ALL tests
+```
+ Ctrl+K, Ctrl+D  -> Format Document
+ Ctrl+Shift+B    -> Build project, but don't run.
+ Ctrl+K, Ctrl+R  -> Find all references
+ Ctrl+R, Ctrl+M  -> extract method
+ Ctrl+R, R       -> Rename from the home row.
+ Ctrl+R, A       -> Run ALL tests
+```
 
-# With each note, you feel your productivity increasing.
+# You feel your productivity increasing
 
 It feels good, the taste of power. Let's go on.
 
@@ -238,11 +238,15 @@ It feels good, the taste of power. Let's go on.
 
 TODO: is this even worth a whole video?
 
-# Ctrl+Shift+Fuuuuuuuuuuuuuu
+# Ctrl+Shift+Fuuu
 
-- Ctrl+comma: find anything, with type-ahead auto-complete goodness. 
+```
+Ctrl + Comma -> Find anything 
+```
 
-[YOU'RE WELCOME](./images/nickburns.jpg)
+# Oh by the way...
+
+![YOU'RE WELCOME](./images/nickburns.jpg)
 
 # Bro, do you even Regex?
 

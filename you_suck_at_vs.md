@@ -124,7 +124,9 @@ There. I saved you a boatload of time, energy, and money.
 What if I told you there was nother way...
 
 <aside class="notes">
-Well what if I told you there were some maaagical settings that would speed up your build, help visual studio launch quicker, and generally help you capture some of that 6-grand your company blew on it. Ross, you're crazy. What sane person wouldn't want that? If those settings existed they would be on by defau...hhhh crap.
+What if I told you there were some maaagical settings that would speed up your build, help visual studio launch quicker, and generally help you capture some of that 6-grand your company blew on it. 
+
+Ross, you're crazy. What sane person wouldn't want that? If those settings existed they would be on by defau...hhhh crap.
 </aside>
 
 # Environment -> General
@@ -142,23 +144,29 @@ Well what if I told you there were some maaagical settings that would speed up y
 - (Some experimentation may be required. Your Mileage May Vary)
 
 # Intellitrace
-Have you ever actually used it? 
-
-I didn't think so. Turn it off until you need it.
+- Have you ever actually used it? 
+- I didn't think so. 
+- Turn it off until you need it.
 
 # XAML Designer
-- Swap the default view to code-only. It's faster, and what you probably want to see anyway. 
+- Swap the default view to code-only.
 - Also, WYSIWYG editors for markup languages are for cowards who can't code.
 
 # Misc
 
-If you're still laboring in WinForms land, firstly, my condolences. 
+- Right-Click Win Forms file
+- Open With... CSharp Code Editor. 
+- Set the default editor
 
-Right-click a Win Forms file, Open With... set the default editor to CSharp Code Editor. 
 
-Sure, some people know that it's F7 to view code, but honestly, WHY would that be the hot path? 
+<aside class="notes">
+  If you're still laboring in WinForms land, firstly, my condolences. 
 
-How often do you step on this landmine only to be interrupted? My guess would be several times per day.
+  Sure, some people know that it's F7 to view code, but honestly, WHY would that be the hot path? 
+
+  How often do you step on this landmine only to be interrupted? My guess would be several times per day.
+
+</aside>
 
 # You feel enlightened
 
@@ -171,23 +179,38 @@ Continue on if ye be worthy.
 
 # The mouse is for n00bs
 
-Anyone who has ever played World of Warcraft, or really any PC game knows that the worst thing you can be is a 'clicker'. 
 
-I suppose there was also the keyboard-turner, but I think perhaps the two go hand-in-hand.
+- Don't be a clicker
 
-Essentially, being inefficient with your inputs is bad.
+<aside class="notes">
+  Anyone who has ever played World of Warcraft, or really any PC game knows that the worst thing you can be is a 'clicker'. 
+
+  I suppose there was also the keyboard-turner, but I think perhaps the two go hand-in-hand.
+
+  Essentially, being inefficient with your inputs is bad.
+</aside>
 
 # Motha F***ing Code Snippets
 
 ```csharp
-foreach
+foreach[Tab][Tab]
 ```
 
+BOOM
+
 ```csharp
-foreach (var foo in bar) { 
-  // body
+foreach (var item in collection) { 
+
 }
 ```
+
+# You can write your own
+
+- bbo
+- dirtyprop
+- courier
+
+Go nuts. Share with your friends.
 
 # Play the right chord
 

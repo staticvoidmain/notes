@@ -1,19 +1,30 @@
 
 # Unlocking your Visual Studio potential
+### (They wouldn't let me call it "You Suck at Visual Studio")
+- Twitter: @RossJennings
+- Website: SmugDeveloper.com
 
 # Episode 0, Your Potential
 
-(Leave It Alone)[./images/potential.jpg]
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/yNKoH84ioz0?start=50" frameborder="0" allowfullscreen></iframe>
+
+# Mostly Kidding
 
 I think it's safe to say you can tap into a little bit of your potential. Don't be afraid, you can probably do it.
 
-Credits to the amazing web series 'You Suck at Photoshop' for the inspiration for this. It's one of my favorites from the early days of youtube.
+# Inspiration
 
-The unique blend of practical advice and sardonic dark humor is enormously entertaining, and I hope to achieve a similar motif here.
+<iframe width="854" height="480" src="https://www.youtube.com/embed/YNfBF2xvhaE?start=82" frameborder="0" allowfullscreen></iframe>
 
-I won't be quite as mean as Donny; I won't openly berate you, but I think that generally people who use visual studio do so because they know it's the de-facto IDE for .Net and that's what they have to use, not because it's the best editor, or because they know it really well.
+<aside class="notes">
+  Credits to the amazing web series 'You Suck at Photoshop' for the inspiration for this. It's one of my favorites from the early days of youtube.
 
-## Your Visual Studio license costs $6K
+  The unique blend of practical advice and sardonic dark humor is enormously entertaining, and I hope to achieve a similar motif here.
+
+  I won't be quite as mean as Donny; I won't openly berate you, but I think that generally people who use visual studio do so because they know it's the de-facto IDE for .Net and that's what they have to use, not because it's the best editor, or because they know it really well.
+</aside>
+
+# Your Visual Studio license costs $6K
 
 You're probably getting about $20 bucks worth. 
 
@@ -40,17 +51,69 @@ Code should flow effortlessly from your brain to your fingertips to the keyboard
 
 If you have to spend more time wrangling your tooling to get it to work right, either your tools suck, or you suck.
 
+# The end
+
 # Episode 1, The Defaults Suck
 
-The stock-standard Visual Studio instance is not really a thing of beauty or productivity. Sure, you can file->New Project and get going right away, but the color scheme is an affront to the eye, and it doesn't really do much besides run msbuild for you.
+- Twitter: @RossJennings
+- Website: SmugDeveloper.com
 
-You would honestly be better off with a nice console, the free MSBuild tools, and a copy of VSCode (also free). 
+# Bad defaults
 
-Edit code, build code, run app. There. I saved you some time and money.
+Sane defaults are a big deal. Visual Studio is, getting better, but it's still not completely sane.
 
-We're gonna follow the same logic when customizing our environment as you might when optimizing code, which is focus on the "Hot Path". You should be impatient and demanding of your editor.
+* Ugly
+* Basic
+* Bloated
 
-## Look at all these settings...
+Now it's just basic and bloated.
+
+<aside>
+  The stock-standard Visual Studio instance is not really a thing of beauty or productivity. Sure, you can file->New Project and get going right away, but the color scheme is an affront to the eye, and it doesn't really do much besides run msbuild for you.
+</aside>
+
+# YAGNI
+
+Don't need a fully featured debugger, profiler, style checker, integrated source control provider, visual designer, or any one of a hundred other things that visual studio is taxing you for?
+
+Don't use it.
+
+# Taco-Bell Toolchain
+
+* ConEmu
+* Git
+* MSBuild Tools
+* VSCode
+
+<aside class="notes">
+  You would honestly be better off with a nice console, git, the free MSBuild tools, and a copy of VSCode, surprise, also free.
+</aside>
+
+# Taco-Bell Workflow
+
+```bash
+  code .
+  build-and-run my.solution.sln
+  git commit -a -m "Look at me mom!"
+```
+
+There. I saved you a boatload of time, energy, and money.
+
+<aside class="notes">
+  I cheated a bit. That's not a real command, but it could be.)
+</aside>
+
+# Optimization
+
+* Optimize the "Critical Path" first
+* You do the thinking, let the software do the lifting.
+* Be demanding, and never settle for a lazy editor.
+
+<aside class="note">
+  We're gonna follow the same logic when customizing our environment as you might when optimizing code, which is focus on the "Hot Path". You should be impatient and demanding of your editor.
+</aside>
+
+# Look at all these settings...
 
 [Pretty Intimidating](./images/settings_window.png)
 
@@ -89,9 +152,14 @@ Sure, some people know that it's F7 to view code, but honestly, WHY would that b
 
 How often do you step on this landmine only to be interrupted? My guess would be several times per day.
 
+# The End
+
 # Episode 2, The Keyboard And You
 
-## The mouse is for n00bs
+- Twitter: @RossJennings
+- Website: SmugDeveloper.com
+
+# The mouse is for n00bs
 
 Anyone who has ever played World of Warcraft, or really any PC game knows that the worst thing you can be is a 'clicker'. 
 
@@ -99,14 +167,17 @@ I suppose there was also the keyboard-turner, but I think perhaps the two go han
 
 Essentially, being inefficient with your inputs is bad.
 
-## Motha F***ing Code Snippets
+# Motha F***ing Code Snippets
+
+```csharp
+foreach
+```
 
 ```csharp
 foreach (var foo in bar) { 
   // body
 }
 ```
-
 
 ## Play the right chord
 
@@ -129,23 +200,64 @@ Make an effort to learn some of these, you will notice a difference. http://visu
 
 - Ctrl+comma: find anything, with type-ahead auto-complete goodness. 
 
-YOU'RE WELCOME
+[YOU'RE WELCOME](./images/nickburns.jpeg)
 
-## Bro, do you even Regex?
+# Bro, do you even Regex?
 
 See that little icon over next to the 
 
-## Next-Level Skills: ack / ag / ripgrep
+# Next-Level Skills: ack / ag / ripgrep
 
-Not totally related to visual studio, except to say that sometimes you need to find things that span multiple solutions, or multiple directories.
+> Sometimes, the best way to utilize a tool is to put it away. -Me, just now.
 
-For such tasks, the old ways work best. Open up the command line, and use the right tool for the job.
+* Sometimes you need to find things that span multiple solutions, or multiple directories.
 
+* For such tasks, the old ways work best. 
+
+* Be a big boy (or girl)
+
+* Open up the command line, and use the right tool for the job.
 
 # Episode 4, Extensions Galore!
 
-## Re-Sharper
+# Re-Sharper
 
+You probably already have it. Again, these are probably settings you've never looked at.
+
+# Web Essentials
+
+Let's have an html typing contest.
+
+I want you to write a snippet of valid html that 
+* creates a div 
+* a class of "content"
+* and inside that put an unordered list with 3 elements.
+
+# Ready?
+
+# GO
+
+# Oh hey look I won. 
+```
+
+div.content>ul>li*3
+
+```
+
+[magic]
+
+```html
+<div class="content">
+  <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+</div>
+```
+
+
+# But wait there's more!
 
 The cynics in the room How long before the editor just codes for you, you ask? The future is now!
 

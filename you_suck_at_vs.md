@@ -1,12 +1,12 @@
 
 # Unlocking your Visual Studio potential
-### (They wouldn't let me call it "You Suck at Visual Studio")
+
 - Twitter: @RossJennings
 - Website: SmugDeveloper.com
 
-# Episode 0, Your Potential
+#  Your Potential
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/yNKoH84ioz0?start=50" frameborder="0" allowfullscreen></iframe>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/yNKoH84ioz0?start=50" frameborder="0" allowfullscreen></iframe>
 
 # Mostly Kidding
 
@@ -35,27 +35,31 @@ To put that in perspective, let's look at it visually.
 
 <aside class="notes">
 
-Now, to be fair, it's probably not really coming out of your pocket, so you don't really _have_ to care as much, but at least learn to leverage the investment to improve your quality of life.
+  Now, to be fair, it's probably not really coming out of your pocket, so you don't really _have_ to care as much, but at least learn to leverage the investment to improve your quality of life.
 
-It makes sense to invest in the best tools possible, but if you don't really understand how to exploit that value, you may as well spend 0.5% of the asking price on a personal copy of Sublime Text 3 or VSCode 
+  It makes sense to invest in the best tools possible, but if you don't really understand how to exploit that value, you may as well spend 0.5% of the asking price on a personal copy of Sublime Text 3 or VSCode 
 
-[1] You should always have a lightweight and competent text editor for making small quick changes. Change the default C# file assocation to use this editor instead of Visual Studio. 
-[2] Notepad++ is terrible. Stop using it.
+  [1] You should always have a lightweight and competent text editor for making small quick changes. Change the default C# file assocation to use this editor instead of Visual Studio. 
+  [2] Notepad++ is terrible. Stop using it.
 </aside>
 
-Disclaimer: I can't really make you a promise that you're going to unlock the FULL potential just by watching my videos, or that I even know all the ins and outs myself, but I'm gonna do what I can.
+# Disclaimer 
+
+I can't really make you a promise that you're going to unlock the FULL potential just by watching my videos, or that I even know all the ins and outs myself, but I'm gonna do what I can.
 
 # Your tools matter
 
 I shouldn't have to tell you this, but you spend a lot of time typing text into a computer. You have 
 
-* Your text editor should be an extension of your arms. It should bend to your will. 
-* Code should flow effortlessly from your brain to your fingertips to the keyboard to the screen with no barriers or distractions.
-* If you have to spend more time wrangling your tooling to get it to work right, either your tools suck, or you suck.
+* Your text editor should be an extension of you. 
+* brain -> keyboard -> screen 
+* If you spend most of your time wrangling your tooling to get it to work right, either your tools suck, or you suck.
 
 # Thus ends the lesson
 
-# Episode 1, The Defaults Suck
+Next up, fixing the horrible defaults.
+
+#  The Defaults Suck
 
 - Twitter: @RossJennings
 - Website: SmugDeveloper.com
@@ -102,7 +106,7 @@ Don't use it.
 There. I saved you a boatload of time, energy, and money.
 
 <aside class="notes">
-  I cheated a bit. That's not a real command, but it could be.)
+  I cheated a bit. That's not a real command, but it could be!
 </aside>
 
 # Optimization
@@ -111,40 +115,42 @@ There. I saved you a boatload of time, energy, and money.
 * You do the thinking, let the software do the lifting.
 * Be demanding, and never settle for a lazy editor.
 
-<aside class="note">
+<aside class="notes">
   We're gonna follow the same logic when customizing our environment as you might when optimizing code, which is focus on the "Hot Path". You should be impatient and demanding of your editor.
 </aside>
 
 # Look at all these settings...
 
-[Pretty Intimidating](./images/settings_window.png)
+What if I told you there was nother way...
 
+<aside class="notes">
 Well what if I told you there were some maaagical settings that would speed up your build, help visual studio launch quicker, and generally help you capture some of that 6-grand your company blew on it. Ross, you're crazy. What sane person wouldn't want that? If those settings existed they would be on by defau...hhhh crap.
+</aside>
 
-### Environment
-
-### General
+# Environment -> General
 
 * Dark Theme! Spare your eyes from the torture of black text on a white background.
 * Ensure adjust visual for performance is on.
 
 * Optimize Startup
-- disable the start page.
-- don't download content, ever.
+  - disable the start page.
+  - don't download content, ever.
 
-### Build and Run
+# Build and Run
 
 * Only 4 max parallel projects, let's make it 8! 
 - (Some experimentation may be required. Your Mileage May Vary)
 
-## Intellitrace
-Have you ever actually used it? I didn't think so. Turn it off until you need it.
+# Intellitrace
+Have you ever actually used it? 
 
-## XAML Designer
+I didn't think so. Turn it off until you need it.
+
+# XAML Designer
 - Swap the default view to code-only. It's faster, and what you probably want to see anyway. 
 - Also, WYSIWYG editors for markup languages are for cowards who can't code.
 
-## Misc
+# Misc
 
 If you're still laboring in WinForms land, firstly, my condolences. 
 
@@ -154,9 +160,11 @@ Sure, some people know that it's F7 to view code, but honestly, WHY would that b
 
 How often do you step on this landmine only to be interrupted? My guess would be several times per day.
 
-# The End
+# You feel enlightened
 
-# Episode 2, The Keyboard And You
+Continue on if ye be worthy.
+
+#  The Keyboard And You
 
 - Twitter: @RossJennings
 - Website: SmugDeveloper.com
@@ -181,11 +189,13 @@ foreach (var foo in bar) {
 }
 ```
 
-## Play the right chord
+# Play the right chord
 
-Make an effort to learn some of these, you will notice a difference. http://visualstudioshortcuts.com/2015/
+Make an effort to learn some of these, you will notice a big difference. 
 
-### Ross's Greatest Hits:
+http://visualstudioshortcuts.com/2015/
+
+# Ross's Greatest Hits:
 
 - Ctrl+K, Ctrl+D: Format Document
 - Ctrl+Shift+B: Build project, but don't run.
@@ -194,15 +204,22 @@ Make an effort to learn some of these, you will notice a difference. http://visu
 - Ctrl+R, R: Rename without leaving the home row.
 - Ctrl+R, A: Run ALL tests
 
-[ With each note, you feel your productivity increasing. ]
+# With each note, you feel your productivity increasing.
 
-# Episode 3, Finding Things
+It feels good, the taste of power. Let's go on.
+
+# Finding Things
+
+- @RossJennings
+- SmugDeveloper.com
+
+TODO: is this even worth a whole video?
 
 # Ctrl+Shift+Fuuuuuuuuuuuuuu
 
 - Ctrl+comma: find anything, with type-ahead auto-complete goodness. 
 
-[YOU'RE WELCOME](./images/nickburns.jpeg)
+[YOU'RE WELCOME](./images/nickburns.jpg)
 
 # Bro, do you even Regex?
 
@@ -213,14 +230,13 @@ See that little icon over next to the
 > Sometimes, the best way to utilize a tool is to put it away. -Me, just now.
 
 * Sometimes you need to find things that span multiple solutions, or multiple directories.
-
 * For such tasks, the old ways work best. 
-
 * Be a big boy (or girl)
-
 * Open up the command line, and use the right tool for the job.
 
-# Episode 4, Extensions Galore!
+# Extensions Galore!
+- Twitter: @RossJennings
+- Website: SmugDeveloper.com
 
 # Re-Sharper
 
@@ -274,7 +290,7 @@ How much would you pay for this modern marvel? $100 / hour plus benefits? NO it'
 
 Disclaimer: Please don't actually use this for production code.
 
-# Episode 5, The Debugger
+#  The Debugger
 
 * 
 

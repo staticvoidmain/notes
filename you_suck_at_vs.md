@@ -28,9 +28,12 @@ I think it's safe to say you can tap into a little bit of your potential. Don't 
 
 You're probably getting about $20 bucks worth. 
 
+# Perspective
 To put that in perspective, let's look at it visually.
 
-[Wasted Dollars](./images/beer_money_vs_editor_money.png)
+[Wasted Dollars](./images/editor_money.gif)
+
+<aside class="notes">
 
 Now, to be fair, it's probably not really coming out of your pocket, so you don't really _have_ to care as much, but at least learn to leverage the investment to improve your quality of life.
 
@@ -38,6 +41,7 @@ It makes sense to invest in the best tools possible, but if you don't really und
 
 [1] You should always have a lightweight and competent text editor for making small quick changes. Change the default C# file assocation to use this editor instead of Visual Studio. 
 [2] Notepad++ is terrible. Stop using it.
+</aside>
 
 Disclaimer: I can't really make you a promise that you're going to unlock the FULL potential just by watching my videos, or that I even know all the ins and outs myself, but I'm gonna do what I can.
 
@@ -45,13 +49,11 @@ Disclaimer: I can't really make you a promise that you're going to unlock the FU
 
 I shouldn't have to tell you this, but you spend a lot of time typing text into a computer. You have 
 
-Your text editor should be an extension of your arms. It should bend to your will. 
+* Your text editor should be an extension of your arms. It should bend to your will. 
+* Code should flow effortlessly from your brain to your fingertips to the keyboard to the screen with no barriers or distractions.
+* If you have to spend more time wrangling your tooling to get it to work right, either your tools suck, or you suck.
 
-Code should flow effortlessly from your brain to your fingertips to the keyboard to the screen with no barriers or distractions.
-
-If you have to spend more time wrangling your tooling to get it to work right, either your tools suck, or you suck.
-
-# The end
+# Thus ends the lesson
 
 # Episode 1, The Defaults Suck
 
@@ -244,7 +246,7 @@ div.content>ul>li*3
 
 ```
 
-[magic]
+[magic happens]
 
 ```html
 <div class="content">
@@ -256,19 +258,23 @@ div.content>ul>li*3
 </div>
 ```
 
-
 # But wait there's more!
 
-The cynics in the room How long before the editor just codes for you, you ask? The future is now!
+I hear the cynics. I'm looking at you Brent.
 
-Visual Code Assist:
+> How long before the editor just codes for you.
+
+The future is now!
+
+# Visual Code Assist:
 
 https://marketplace.visualstudio.com/items?itemName=OneCodeTeam.DeveloperAssistant-13032
 
-How much would you pay for this modern marvel? $100 / hour? NO it's yours for the low low price of a VS license.
+How much would you pay for this modern marvel? $100 / hour plus benefits? NO it's yours for the low low price of a VS license.
 
+Disclaimer: Please don't actually use this for production code.
 
-Episode 5, The Debugger
+# Episode 5, The Debugger
 
 * 
 

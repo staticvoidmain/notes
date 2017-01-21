@@ -156,7 +156,6 @@ Ross, you're crazy. What sane person wouldn't want that? If those settings exist
 - Open With... CSharp Code Editor. 
 - Set the default editor
 
-
 <aside class="notes">
   If you're still laboring in WinForms land, firstly, my condolences. 
 
@@ -175,9 +174,15 @@ Continue on if ye be worthy.
 - Twitter: @RossJennings
 - Website: SmugDeveloper.com
 
-# The mouse is for n00bs
+# Spend money on a good keyboard
 
+A mechanical keyboard is just a dream to type on.
 
+Your co-workers might hate you, but at least you'll be happy.
+
+# No n00bs plz
+
+- Be 1337, use hotkeys
 - Don't be a clicker
 
 <aside class="notes">
@@ -187,6 +192,40 @@ Continue on if ye be worthy.
 
   Essentially, being inefficient with your inputs is bad.
 </aside>
+
+# Demo: Multi-Caret Editing
+
+It's the *single greatest* feature you never knew existed, but that once you have it, you can't live without.
+
+# Re-bind some keys
+
+I recently learned the joys of Ctrl+A and Ctrl+E as subsitutes for Home and End.
+
+Pretty sure anyone can easily see where I'm going with this.
+
+It's a game changer. Fix it.
+
+# Infomercial
+
+Friends, how many times have you typed these characters into a computer?
+
+```
+for (int i = 0; i < N; i++) 
+{
+}
+```
+
+# Has this ever happened to you?
+
+- Your code isn't ready
+- Your QA is angry
+- Your lead is frustrated
+
+Don't you wish there was something you could do?
+
+# Introducing
+
+...
 
 # Motha F***ing Code Snippets
 
@@ -202,7 +241,7 @@ foreach (var item in collection) {
 }
 ```
 
-# You can write your own
+# Write your own
 
 - bbo
 - dirtyprop
@@ -210,11 +249,11 @@ foreach (var item in collection) {
 
 Go nuts. Share with your friends.
 
-# Play the right chord
+# Some VS Exclusives
 
-Make an effort to learn some of these, you will notice a big difference. 
+# Play the right "chord"
 
-## visualstudioshortcuts.com
+ Jam On: visualstudioshortcuts.com
 
 # Ross's Greatest Hits:
 
@@ -226,6 +265,10 @@ Make an effort to learn some of these, you will notice a big difference.
  Ctrl+R, R       -> Rename from the home row.
  Ctrl+R, A       -> Run ALL tests
 ```
+
+# If you take nothing else away
+
+Rename, don't find-replace.
 
 # You feel your productivity increasing
 

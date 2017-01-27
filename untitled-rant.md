@@ -57,7 +57,7 @@ Know Your Worth
 
 # The Lucky Ones
 
-- "You're lucky to have a job" is depression era thinking.
+- "You're lucky to have a job" is **depression-era thinking**.
 - If you have a skill, **your employer** is the lucky one.
 
 # Hold People Accountable
@@ -72,6 +72,15 @@ There is in fact a difference.
 
 - Being a manager is easy.
 - Being a leader takes **work**
+
+# Managers
+- Status Reports
+- Policies / Procedures / Controls
+- Hiring / Promotions / Terminations
+
+# Said no one ever
+
+> Hey look at Bob, he's a really charismatic _manager_.
 
 # Hard Truth
 - Most people in leadership positions are really bad at it.
@@ -106,8 +115,9 @@ https://hbr.org/2012/01/positive-intelligence
 
 # Smug Tips: Leaders
 
-- Fire the toxic people. Right now.
-- Streamline your process
+- Fire the toxic people. **Right now.**
+- Promote based on leadership ability
+- ~~delete~~ streamline your process
 - **Do not** increase headcount prematurely
 - Treat your employees with respect
 

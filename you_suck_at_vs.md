@@ -30,7 +30,9 @@ You're probably getting about $20 bucks worth.
 
 # Perspective
 
-![Wasted Dollars](./images/editor_money.gif)
+- Eight bunny rabbits for the office for a whole year.
+- ~2 trips for a family of four to disneyland
+- OR 30 Kegs of Beer
 
 <aside class="notes">
 
@@ -293,16 +295,32 @@ Ctrl + Comma -> Find anything
 
 # Bro, do you even Regex?
 
-See that little icon over next to the 
+See that little icon over next to the find box that looks like this: .*
+
+It's really powerful. 
 
 # Next-Level Skills: ack / ag / ripgrep
 
 > Sometimes, the best way to utilize a tool is to put it away. -Me, just now.
 
-* Sometimes you need to find things that span multiple solutions, or multiple directories.
+# This is one of those times
+
+* Sometimes you need to find things that span multiple solutions, directories or even drives.
+
+# demo: silver_searcher
 * For such tasks, the old ways work best. 
 * Be a big boy (or girl)
 * Open up the command line, and use the right tool for the job.
+
+# ack / ripgrep
+
+Having a UI is not an asset, it's a liability.
+
+The conosle is pure. The console is life.
+
+# You feel a oneness with all code
+
+You are one step closer to enlightenment.
 
 # Extensions Galore!
 - Twitter: @RossJennings

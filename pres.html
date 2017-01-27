@@ -1,0 +1,378 @@
+<section id="unlocking-your-visual-studio-potential" class="slide level1">
+<h1>Unlocking your Visual Studio potential</h1>
+<ul>
+<li>Twitter: <span class="citation" data-cites="RossJennings">@RossJennings</span></li>
+<li>Website: SmugDeveloper.com</li>
+</ul>
+</section>
+<section id="your-potential" class="slide level1">
+<h1>Your Potential</h1>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/yNKoH84ioz0?start=50" frameborder="0" allowfullscreen>
+</iframe>
+</section>
+<section id="mostly-kidding" class="slide level1">
+<h1>Mostly Kidding</h1>
+<p>I think it's safe to say you can tap into a little bit of your potential. Don't be afraid, you can probably do it.</p>
+</section>
+<section id="inspiration" class="slide level1">
+<h1>Inspiration</h1>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/YNfBF2xvhaE?start=82" frameborder="0" allowfullscreen>
+</iframe>
+<aside class="notes">
+<p>Credits to the amazing web series 'You Suck at Photoshop' for the inspiration for this. It's one of my favorites from the early days of youtube.</p>
+<p>The unique blend of practical advice and sardonic dark humor is enormously entertaining, and I hope to achieve a similar motif here.</p>
+I won't be quite as mean as Donny; I won't openly berate you, but I think that generally people who use visual studio do so because they know it's the de-facto IDE for .Net and that's what they have to use, not because it's the best editor, or because they know it really well.
+</aside>
+</section>
+<section id="your-visual-studio-license-costs-6k" class="slide level1">
+<h1>Your Visual Studio license costs $6K</h1>
+<p>You're probably getting about $20 bucks worth.</p>
+</section>
+<section id="perspective" class="slide level1">
+<h1>Perspective</h1>
+<ul>
+<li>Eight bunny rabbits for the office for a whole year.</li>
+<li>~2 trips for a family of four to disneyland</li>
+<li>OR 30 Kegs of Beer</li>
+</ul>
+<aside class="notes">
+<p>Now, to be fair, it's probably not really coming out of your pocket, so you don't really <em>have</em> to care as much, but at least learn to leverage the investment to improve your quality of life.</p>
+<p>It makes sense to invest in the best tools possible, but if you don't really understand how to exploit that value, you may as well spend 0.5% of the asking price on a personal copy of Sublime Text 3 or VSCode</p>
+[1] You should always have a lightweight and competent text editor for making small quick changes. Change the default C# file assocation to use this editor instead of Visual Studio. [2] Notepad++ is terrible. Stop using it.
+</aside>
+</section>
+<section id="disclaimer" class="slide level1">
+<h1>Disclaimer</h1>
+<p>I can't really make you a promise that you're going to unlock the FULL potential just by watching my videos, or that I even know all the ins and outs myself, but I'm gonna do what I can.</p>
+</section>
+<section id="your-tools-matter" class="slide level1">
+<h1>Your tools matter</h1>
+<ul>
+<li>You spend a lot of time typing text into a computer.</li>
+<li>Your text editor should be an extension of you.</li>
+<li>brain -&gt; keyboard -&gt; screen</li>
+<li>If you spend most of your time wrangling your tooling to get it to work right, either your tools suck, or you suck.</li>
+</ul>
+</section>
+<section id="thus-ends-the-lesson" class="slide level1">
+<h1>Thus ends the lesson</h1>
+<p>Next up, fixing the horrible defaults.</p>
+</section>
+<section id="the-defaults-suck" class="slide level1">
+<h1>The Defaults Suck</h1>
+<ul>
+<li>Twitter: <span class="citation" data-cites="RossJennings">@RossJennings</span></li>
+<li>Website: SmugDeveloper.com</li>
+</ul>
+</section>
+<section id="bad-defaults" class="slide level1">
+<h1>Bad defaults</h1>
+<p>Historically:</p>
+<ul>
+<li>Ugly</li>
+<li>Basic</li>
+<li>Bloated</li>
+</ul>
+<aside class="notes">
+<p>Now it's just basic and bloated.</p>
+The stock-standard Visual Studio instance is not really a thing of beauty or productivity. Sure, you can file-&gt;New Project and get going right away, but the color scheme is an affront to the eye, and it doesn't really do much besides run msbuild for you.
+</aside>
+</section>
+<section id="yagni" class="slide level1">
+<h1>YAGNI</h1>
+<p>IF you don't need a fully featured debugger, profiler, style checker, integrated source control provider, visual designer, or any one of a hundred other things that visual studio is taxing you for?</p>
+<p>Don't use it.</p>
+</section>
+<section id="taco-bell-toolchain" class="slide level1">
+<h1>Taco-Bell Toolchain</h1>
+<ul>
+<li>ConEmu</li>
+<li>Git</li>
+<li>MSBuild Tools</li>
+<li>VSCode</li>
+</ul>
+<aside class="notes">
+You would honestly be better off with a nice console, git, the free MSBuild tools, and a copy of VSCode, surprise, also free.
+</aside>
+</section>
+<section id="taco-bell-workflow" class="slide level1">
+<h1>Taco-Bell Workflow</h1>
+<pre><code>  code .
+  build-and-run my.solution.sln
+  git commit -a -m &quot;Look at me mom!&quot;</code></pre>
+<p>There. I saved you a boatload of time, energy, and money.</p>
+<aside class="notes">
+I cheated a bit. That's not a real command, but it could be!
+</aside>
+</section>
+<section id="optimization" class="slide level1">
+<h1>Optimization</h1>
+<ul>
+<li>Optimize the &quot;Critical Path&quot; first</li>
+<li>You do the thinking, let the software do the lifting.</li>
+<li>Be demanding, and never settle for a lazy editor.</li>
+</ul>
+<aside class="notes">
+We're gonna follow the same logic when customizing our environment as you might when optimizing code, which is focus on the &quot;Hot Path&quot;. You should be impatient and demanding of your editor.
+</aside>
+</section>
+<section id="morpheus" class="slide level1">
+<h1>Morpheus</h1>
+<p>What if I told you there was another way...</p>
+<aside class="notes">
+<p>What if I told you there were some maaagical settings that would speed up your build, help visual studio launch quicker, and generally help you capture some of that 6-grand your company blew on it.</p>
+Ross, you're crazy. What sane person wouldn't want that? If those settings existed they would be on by defau...hhhh crap.
+</aside>
+</section>
+<section id="environment---general" class="slide level1">
+<h1>Environment -&gt; General</h1>
+<ul>
+<li>Dark Theme! Spare your eyes from the torture of black text on a white background.</li>
+<li><p>Ensure adjust visual for performance is on.</p></li>
+<li>Optimize Startup</li>
+<li>disable the start page.</li>
+<li><p>don't download content, ever.</p></li>
+</ul>
+</section>
+<section id="build-and-run" class="slide level1">
+<h1>Build and Run</h1>
+<ul>
+<li>Only 4 max parallel projects, let's make it 8!</li>
+<li>(Some experimentation may be required. Your Mileage May Vary)</li>
+</ul>
+</section>
+<section id="intellitrace" class="slide level1">
+<h1>Intellitrace</h1>
+<ul>
+<li>Have you ever actually used it?</li>
+<li>I didn't think so.</li>
+<li>Turn it off until you need it.</li>
+</ul>
+</section>
+<section id="xaml-designer" class="slide level1">
+<h1>XAML Designer</h1>
+<ul>
+<li>Swap the default view to code-only.</li>
+<li>Also, WYSIWYG editors for markup languages are for cowards who can't code.</li>
+</ul>
+</section>
+<section id="misc" class="slide level1">
+<h1>Misc</h1>
+<ul>
+<li>Right-Click Win Forms file</li>
+<li>Open With... CSharp Code Editor.</li>
+<li>Set the default editor</li>
+</ul>
+<aside class="notes">
+<p>If you're still laboring in WinForms land, firstly, my condolences.</p>
+<p>Sure, some people know that it's F7 to view code, but honestly, WHY would that be the hot path?</p>
+<p>How often do you step on this landmine only to be interrupted? My guess would be several times per day.</p>
+</aside>
+</section>
+<section id="you-feel-enlightened" class="slide level1">
+<h1>You feel enlightened</h1>
+<p>Continue on if ye be worthy.</p>
+</section>
+<section id="the-keyboard-and-you" class="slide level1">
+<h1>The Keyboard And You</h1>
+<ul>
+<li>Twitter: <span class="citation" data-cites="RossJennings">@RossJennings</span></li>
+<li>Website: SmugDeveloper.com</li>
+</ul>
+</section>
+<section id="spend-money-on-a-good-keyboard" class="slide level1">
+<h1>Spend money on a good keyboard</h1>
+<p>A mechanical keyboard is just a dream to type on.</p>
+<p>Your co-workers might hate you, but at least you'll be happy.</p>
+</section>
+<section id="no-n00bs-plz" class="slide level1">
+<h1>No n00bs plz</h1>
+<ul>
+<li>Be 1337, use hotkeys</li>
+<li>Don't be a clicker</li>
+</ul>
+<aside class="notes">
+<p>Anyone who has ever played World of Warcraft, or really any PC game knows that the worst thing you can be is a 'clicker'.</p>
+<p>I suppose there was also the keyboard-turner, but I think perhaps the two go hand-in-hand.</p>
+Essentially, being inefficient with your inputs is bad.
+</aside>
+</section>
+<section id="demo-multi-caret-editing" class="slide level1">
+<h1>Demo: Multi-Caret Editing</h1>
+<p>It's the <em>single greatest</em> feature you never knew existed, but that once you have it, you can't live without.</p>
+</section>
+<section id="re-bind-some-keys" class="slide level1">
+<h1>Re-bind some keys</h1>
+<p>I recently learned the joys of Ctrl+A and Ctrl+E as subsitutes for Home and End.</p>
+<p>Pretty sure anyone can easily see where I'm going with this.</p>
+<p>It's a game changer. Fix it.</p>
+</section>
+<section id="infomercial" class="slide level1">
+<h1>Infomercial</h1>
+<p>Friends, how many times have you typed these characters into a computer?</p>
+<pre><code>for (int i = 0; i &lt; N; i++) 
+{
+}</code></pre>
+</section>
+<section id="has-this-ever-happened-to-you" class="slide level1">
+<h1>Has this ever happened to you?</h1>
+<ul>
+<li>Your code isn't ready</li>
+<li>Your QA is angry</li>
+<li>Your lead is frustrated</li>
+</ul>
+<p>Don't you wish there was something you could do?</p>
+</section>
+<section id="introducing" class="slide level1">
+<h1>Introducing</h1>
+<p>...</p>
+</section>
+<section id="motha-fing-code-snippets" class="slide level1">
+<h1>Motha F***ing Code Snippets</h1>
+<pre class="csharp"><code>foreach[Tab][Tab]</code></pre>
+<p>BOOM</p>
+<pre class="csharp"><code>foreach (var item in collection) { 
+
+}</code></pre>
+</section>
+<section id="write-your-own" class="slide level1">
+<h1>Write your own</h1>
+<ul>
+<li>bbo</li>
+<li>dirtyprop</li>
+<li>courier</li>
+</ul>
+<p>Go nuts. Share with your friends.</p>
+</section>
+<section id="some-vs-exclusives" class="slide level1">
+<h1>Some VS Exclusives</h1>
+</section>
+<section id="play-the-right-chord" class="slide level1">
+<h1>Play the right &quot;chord&quot;</h1>
+<p>Jam On: visualstudioshortcuts.com</p>
+</section>
+<section id="rosss-greatest-hits" class="slide level1">
+<h1>Ross's Greatest Hits:</h1>
+<pre><code> Ctrl+K, Ctrl+D  -&gt; Format Document
+ Ctrl+Shift+B    -&gt; Build project, but don&#39;t run.
+ Ctrl+K, Ctrl+R  -&gt; Find all references
+ Ctrl+R, Ctrl+M  -&gt; extract method
+ Ctrl+R, R       -&gt; Rename from the home row.
+ Ctrl+R, A       -&gt; Run ALL tests</code></pre>
+</section>
+<section id="if-you-take-nothing-else-away" class="slide level1">
+<h1>If you take nothing else away</h1>
+<p>Rename, don't find-replace.</p>
+</section>
+<section id="you-feel-your-productivity-increasing" class="slide level1">
+<h1>You feel your productivity increasing</h1>
+<p>It feels good, the taste of power. Let's go on.</p>
+</section>
+<section id="finding-things" class="slide level1">
+<h1>Finding Things</h1>
+<ul>
+<li><span class="citation" data-cites="RossJennings">@RossJennings</span></li>
+<li>SmugDeveloper.com</li>
+</ul>
+<p>TODO: is this even worth a whole video?</p>
+</section>
+<section id="ctrlshiftfuuu" class="slide level1">
+<h1>Ctrl+Shift+Fuuu</h1>
+<pre><code>Ctrl + Comma -&gt; Find anything </code></pre>
+</section>
+<section id="oh-by-the-way..." class="slide level1">
+<h1>Oh by the way...</h1>
+<figure>
+<img src="./images/nickburns.jpg" alt="YOU&#39;RE WELCOME" /><figcaption>YOU'RE WELCOME</figcaption>
+</figure>
+</section>
+<section id="bro-do-you-even-regex" class="slide level1">
+<h1>Bro, do you even Regex?</h1>
+<p>See that little icon over next to the find box that looks like this: .*</p>
+<p>It's really powerful.</p>
+</section>
+<section id="next-level-skills-ack-ag-ripgrep" class="slide level1">
+<h1>Next-Level Skills: ack / ag / ripgrep</h1>
+<blockquote>
+<p>Sometimes, the best way to utilize a tool is to put it away. -Me, just now.</p>
+</blockquote>
+</section>
+<section id="this-is-one-of-those-times" class="slide level1">
+<h1>This is one of those times</h1>
+<ul>
+<li>Sometimes you need to find things that span multiple solutions, directories or even drives.</li>
+</ul>
+</section>
+<section id="demo-silver_searcher" class="slide level1">
+<h1>demo: silver_searcher</h1>
+<ul>
+<li>For such tasks, the old ways work best.</li>
+<li>Be a big boy (or girl)</li>
+<li>Open up the command line, and use the right tool for the job.</li>
+</ul>
+</section>
+<section id="ack-ripgrep" class="slide level1">
+<h1>ack / ripgrep</h1>
+<p>Having a UI is not an asset, it's a liability.</p>
+<p>The conosle is pure. The console is life.</p>
+</section>
+<section id="you-feel-a-oneness-with-all-code" class="slide level1">
+<h1>You feel a oneness with all code</h1>
+<p>You are one step closer to enlightenment.</p>
+</section>
+<section id="extensions-galore" class="slide level1">
+<h1>Extensions Galore!</h1>
+<ul>
+<li>Twitter: <span class="citation" data-cites="RossJennings">@RossJennings</span></li>
+<li>Website: SmugDeveloper.com</li>
+</ul>
+</section>
+<section id="re-sharper" class="slide level1">
+<h1>Re-Sharper</h1>
+<p>You probably already have it. Again, these are probably settings you've never looked at.</p>
+</section>
+<section id="web-essentials" class="slide level1">
+<h1>Web Essentials</h1>
+<p>Let's have an html typing contest.</p>
+<p>I want you to write a snippet of valid html that * creates a div * a class of &quot;content&quot; * and inside that put an unordered list with 3 elements.</p>
+</section>
+<section id="ready" class="slide level1">
+<h1>Ready?</h1>
+</section>
+<section id="go" class="slide level1">
+<h1>GO</h1>
+</section>
+<section id="oh-hey-look-i-won." class="slide level1">
+<h1>Oh hey look I won.</h1>
+<pre><code>
+div.content&gt;ul&gt;li*3
+</code></pre>
+<p>[magic happens]</p>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;div</span><span class="ot"> class=</span><span class="st">&quot;content&quot;</span><span class="kw">&gt;</span>
+  <span class="kw">&lt;ul&gt;</span>
+    <span class="kw">&lt;li&gt;&lt;/li&gt;</span>
+    <span class="kw">&lt;li&gt;&lt;/li&gt;</span>
+    <span class="kw">&lt;li&gt;&lt;/li&gt;</span>
+  <span class="kw">&lt;/ul&gt;</span>
+<span class="kw">&lt;/div&gt;</span></code></pre></div>
+</section>
+<section id="but-wait-theres-more" class="slide level1">
+<h1>But wait there's more!</h1>
+<p>I hear the cynics. I'm looking at you Brent.</p>
+<blockquote>
+<p>How long before the editor just codes for you.</p>
+</blockquote>
+<p>The future is now!</p>
+</section>
+<section id="visual-code-assist" class="slide level1">
+<h1>Visual Code Assist:</h1>
+<p>https://marketplace.visualstudio.com/items?itemName=OneCodeTeam.DeveloperAssistant-13032</p>
+<p>How much would you pay for this modern marvel? $100 / hour plus benefits? NO it's yours for the low low price of a VS license.</p>
+<p>Disclaimer: Please don't actually use this for production code.</p>
+</section>
+<section id="the-debugger" class="slide level1">
+<h1>The Debugger</h1>
+<ul>
+<li></li>
+</ul>
+</section>

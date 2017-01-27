@@ -15,6 +15,7 @@
 
 - An excuse to point fingers and be lazy.
 - If you are a bad programmer, you're equally out the door.
+- Automation is coming, don't get caught by surprise.
 
 # Who am I?
 
@@ -54,6 +55,11 @@ Know Your Worth
 - Add $20,000 for everything you know that nobody else does 
 - This is what it costs the company to replace you.
 
+# The Lucky Ones
+
+- "You're lucky to have a job" is depression era thinking.
+- If you have a skill, **your employer** is the lucky one.
+
 # Hold People Accountable
 
 - Your leadership is accountable
@@ -77,6 +83,11 @@ There is in fact a difference.
 - Often done for the wrong reasons
 - Often a bad idea. see: Peter Principle
 
+# This is not going away
+
+- Millenials more than any other group **demand** this kind of work environment.
+- You **literally** cannot afford to ignore this advice.
+
 # WIFM?
 
 You get to keep your cushy desk job.
@@ -89,31 +100,32 @@ You get to keep your cushy desk job.
 
 # Do you even read?
 
-> The Harvard Business Review recently published an analysis 
-> of various studies that showed an average of 31 percent more 
-> productivity and 37 percent higher sales when employees are happy or satisfied.
+> The Harvard Business Review recently published an analysis of various studies that showed an average of **31 percent more productivity and 37 percent higher sales** when employees are happy or satisfied.
+
+https://hbr.org/2012/01/positive-intelligence
 
 # Smug Tips: Leaders
 
 - Fire the toxic people. Right now.
 - Streamline your process
-- **Do not** increase headcount
+- **Do not** increase headcount prematurely
 - Treat your employees with respect
 
-# Leadr Tips Cont.
+# R-E-S-P-E-C-T
 
 - Treat them like adults
 - Give them what they need
+- Listen to them
 
 # Smug Tips: Creatives
 
 - Understand your value, and how to leverage it
 - Vote with your feet. Meetings suck.
-- Be vocal, or _find_ someone willing to be vocal FOR you
+- Be vocal, or _find_ someone willing to be vocal **for** you
 
 # Where can I get these?
 
-I'm going to start putting all my article markdown in github.
+I'm going to start putting all my article markdown and video slides in github.
 
 http://github.com/staticvoidmain/notes
 

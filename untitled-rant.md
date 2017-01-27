@@ -131,6 +131,6 @@ http://github.com/staticvoidmain/notes
 
 # Credits
 
-* Nicole Camma - editing / captioning / psych consulting
+* Nicole Cammareri - editing / captioning / psych consulting
 * James Marsh - righteous indignation
 * Unnamed Phish Fan - a call to action

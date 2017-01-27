@@ -40,7 +40,7 @@ What right do I have to say these outlandish things?
 - I'm not calling for open rebellion here 
 - also I never read the manifesto
 
-# WTF?
+# Liquid Courage
 
 - The love of a Good Woman
 - A good glass of Scotch

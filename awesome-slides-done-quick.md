@@ -9,12 +9,11 @@ A quick walkthrough of my writing and publishing process for everything.
 
 # Nerds Like Text
 
-text/plain, the last format you'll ever need.
-
 - It's searchable
-- Cross Platform
-- They don't need special viewers
+- It's Cross Platform
+- No special viewers
 - It's SMALL
+- IT'S VERSIONABLE ahhhhh
 
 # Minimize Friction
 
@@ -46,3 +45,8 @@ Do this for your:
 
 # Walkthrough
 
+# links
+
+- https://code.visualstudio.com/
+- http://pandoc.org/MANUAL.html#pandocs-markdown
+- http://lab.hakim.se/reveal-js/#/

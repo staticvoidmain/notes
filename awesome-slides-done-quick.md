@@ -1,8 +1,9 @@
+
 # Fix Your Presentations
 
 A quick walkthrough of my writing and publishing process for everything.
 
-# Content vs Presentations
+# Content vs Presentation
 
 - Think like a programmer
 - Do not author in the output format
@@ -23,7 +24,7 @@ A quick walkthrough of my writing and publishing process for everything.
 
 If you are a programmer who does not use and love markdown, what the fuck mate, get with it.
 
-# Not just Presentations
+# Not just for slides
 
 Do this for your:
 

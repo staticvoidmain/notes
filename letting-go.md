@@ -18,7 +18,6 @@ Finally, it came.
 
 I didn't want to leave because it's scary out there, and this place had not prepared me for life on the outside.
 
-
 # Dropping Out
 ## I did it for the money
 
@@ -72,14 +71,13 @@ I don't have any fun annecdotes for these. This is my public apology for endorsi
 
 - Marketing Reconciliation
   - In my autumn years of this place, my greatest joy has been working with my friends over in the Marketing department again. It was nice to finally put down the guns and end the blood-feud that was started so many many years ago. We carried those same animosities around with us as a culture, long after most of the older generation who started the fighting had gone.
+  - Amy, Jaime, Brian, it's been a pleasure.
 
 # Change Comes Slowly
 ## and sometimes not at all
-
-Not much to show for over a decade of service. After the dust settled, and all the features and bug fixes are tallied, nothing was ever **solved**, we just kept doing what we've always done, as all companies of sufficient mass are wont to do.
+Not much to show for over a decade of service. After the dust settled, and all the features and bug fixes are tallied, nothing was ever **solved**, we just kept doing what we've always done, as all companies of sufficient size are wont to do. We didn't get better, or stronger, or faster, we just got bigger.
 
 # Purge Yourself
-
 If you are the best, and everyone knows it, why would you stay? You are stagnating if you (like me) were insecure about looking elsewhere. If you (like me) think that your company has your best interest at heart, you clearly don't understand how business works.
 
 I've probably cost myself a ridiculous amount of money over the years due to my sick sense of duty to the place that gave me my start, and for what? It always ends. We aren't a family, we never were. What was I thinking?

@@ -1,64 +1,97 @@
 
-# Community
+# Welcome to the 
 
-## It's not just a really wonderful sitcom created by Dan Harmon
+![](images/community.png)
 
-@RossJennings
+* ross@smugdeveloper.com
+* @RossJennings
+
+# Unscientific Poll
+
+## Are you here for:
+
+a) The money?
+b) The code?
+c) The lulz?
+
+# Dunning Kruger
+
+- The less you know, the more you think you know.
+- Applies to _Most_ .Net developers
+
+# Imposter Syndrome
+
+> **high-achieving individuals** who are marked by an inability to internalize their accomplishments and a persistent fear of being exposed as a "fraud".
+
+# What's next?
+
+After you leave here, what happens?
+
+- You join the workforce
+- You become a "real" programmer.
 
 # Dark Matter
 
-Not sure if you're cosmology nerds...
+## For the cosmology nerds
 
-> The standard model of cosmology indicates that the total mass–energy of the universe contains 4.9% ordinary matter...
-
-So... what about the rest?
+> The standard model of cosmology indicates that the total mass of the universe contains 4.9% ordinary matter...
 
 # Life Long Learning
-- "Job Security" means knowing more than can be automated cheaply
-- "Make The Button Blue"
-- 
 
-# Read
+## Graduation isn't the end
+
+- "Job Security" means knowing more than can be automated cheaply
+- Having a satisfying career means not just churning out code for others.
 
 # Be a Voracious Reader
-
-# Good Starter Sources
+Programmers stereotypically don't _talk_ much, but we sure as hell write a lot.
 
 - /r/programming
-- ted dziuba
+- Ted Dziuba
 - DHH
-
-# Listen
-- This Developers Life
 
 # Recipe: A good time
 
 - Your Pajamas
 - Flux (for dimming your monitor)
 - A nice glass of your favorite sippable adult beverage
-  - ie: bourbon, scotch, brandy, cognac
+  - bourbon, scotch, brandy, cognac
 
 - https://github.com/rails/rails
 
+# Watch / Listen
+- Handmade Hero
+- This Developers Life
+
 # Make Something
 
-A good portfolio will set you apart from the other candidates, I promise.
+- A resume only gets you past the recruiter.
+- Any portfolio will set you apart from the other candidates.
+- A **good** portfolio will put you at the top of the list. 
+
+# Case Study: Shon
+
+<video src="/images/shon_dot_com.mp4" autoplay loop="true">
+	WTF MAH VIDEOZ
+</video>
 
 # Write Something
 
-> Writers get a nice break in one way, at least: They can treat their mental illnesses every day.
+> Writers get a nice break in one way, at least: They can treat their mental illnesses every day.  - Kurt Vonnegut
 
 # Blog For Yourself
 
-- You are entering into this career at an interesting time.
-- You are going to work with some really frustrating people.
-- You're going to need an outlet.
+- It proves you have a pulse
+- Practicing keeps you sharp
+- This industry is frustrating
 
-# smugdeveloper.com
+# Anyone Can Do It
 
-This is my speaking fee.
+## smugdeveloper.com
 
-Like / Comment / Subscribe / Validate Me
+- Like 
+- Subscribe 
+- Validate Me
 
 # Contribute
 
@@ -69,8 +102,24 @@ Like / Comment / Subscribe / Validate Me
 
 # OSS 
 
+- Open source software is vital
+- Giving back is easy
+- You might find a mentor
 
-# Help Mozilla
+# Get Involved
 
 - OpenHatch.org
-- 
+- whatcanidoformozilla.org
+- github.com/search
+
+# Why?
+
+Why does anyone do anything?
+
+- Gain Confidence
+- Show Your Work
+- Make More Money
+
+# Questions?
+
+- I'm a professional programmer. AMA!

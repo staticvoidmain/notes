@@ -10,14 +10,14 @@
 
 ## Are you here for:
 
-a) The money?
-b) The code?
-c) The lulz?
+- The money?
+- The code?
+- The lulz?
 
 # Dunning Kruger
 
 - The less you know, the more you think you know.
-- Applies to _Most_ .Net developers
+- Applies to _most_ .Net developers
 
 # Imposter Syndrome
 
@@ -30,11 +30,11 @@ After you leave here, what happens?
 - You join the workforce
 - You become a "real" programmer.
 
-# Dark Matter
+# Except...
 
-## For the cosmology nerds
-
-> The standard model of cosmology indicates that the total mass of the universe contains 4.9% ordinary matter...
+- Don't be a ____ programmer.
+- Don't be a programmer at all.
+- Sell yourself, not the tools you use.
 
 # Life Long Learning
 
@@ -72,7 +72,7 @@ Programmers stereotypically don't _talk_ much, but we sure as hell write a lot.
 # Case Study: Shon
 
 <video src="/images/shon_dot_com.mp4" autoplay loop="true">
-	WTF MAH VIDEOZ
+  WTF MAH VIDEOZ
 </video>
 
 # Write Something
@@ -110,7 +110,7 @@ Programmers stereotypically don't _talk_ much, but we sure as hell write a lot.
 
 - OpenHatch.org
 - whatcanidoformozilla.org
-- github.com/search
+- http://up-for-grabs.net/#/
 
 # Why?
 
@@ -122,4 +122,4 @@ Why does anyone do anything?
 
 # Questions?
 
-- I'm a professional programmer. AMA!
+- I'm a smug developer. AMA!
